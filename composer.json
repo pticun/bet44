@@ -1,0 +1,26 @@
+{
+    "name": "user/betting",
+    "authors": [
+        {
+            "name": "Bilbo Baggins",
+            "email": "test@test.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Goutte\\": "vendor/fabpot/goutte/Goutte",
+            "Acme\\": "src/"
+        }
+    },
+    "require": {
+        "twig/twig": "~1.0",
+        "fabpot/goutte": "^3.2",
+        "phpunit/phpunit": "^6.5",
+        "sunra/php-simple-html-dom-parser": "v1.5.0"
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^5.3"
+    }
+
+
+}
