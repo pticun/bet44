@@ -9,4 +9,5 @@ return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Sunra\\PhpSimple\\HtmlDomParser' => array($vendorDir . '/sunra/php-simple-html-dom-parser/Src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Kunststube\\CSRFP' => array($vendorDir . '/kunststube/csrfp'),
 );

@@ -38,12 +38,13 @@ class Arbitrage
     public function exec()
     {
         foreach ($this->results['bets'] as &$result) {
-            $result['percentage_of_total_bet'] = $this->calculatePercentageOfTotalBet($result);
-            $result['amount_tot_bet'] = $this->calculateAmountToBet($this->total_betting_amount, $result['percentage_of_total_bet']);
+            $result['percentage_of_total_bet'] = $this->calculatePercentageOfTotalBet($result['implied_odds'], $this->market_total);
+            $result['amount_to_bet'] = $this->calculateAmountToBet($this->total_betting_amount, $result['percentage_of_total_bet']);
             $result['total_return'] = $this->calculateTotalReturn($result['amount_to_bet'], $result['decimal_odds']);
             $result['profit'] = $this->calculateProfit($result['total_return'], $this->total_betting_amount);
         }
 
+        $this->results['total_betting_amount'] = $this->total_betting_amount;
         return $this->results;
     }
 
@@ -69,8 +70,8 @@ class Arbitrage
             $bet['implied_odds'] = $implied_odds;
         }
 
-        $market_total = $this->marketTotal($all_implied_odds);
-        $this->results['market_total'] = $market_total;
+        $this->market_total = $this->marketTotal($all_implied_odds);
+        $this->results['market_total'] = $this->market_total;
     }
 
     public function impliedOdds($decimal_odds) : float
@@ -89,7 +90,7 @@ class Arbitrage
         return $market_total;
     }
 
-    public function setTotalBettingAmount($total_betting_amount) : void
+    public function setTotalBettingAmount($total_betting_amount)
     {
         $this->total_betting_amount = $total_betting_amount;
     }
@@ -120,16 +121,17 @@ class Arbitrage
     }
 
     /**
-     * @param $result
+     * @param $implied_odds
+     * @param $market_total
      * @return float|int
      */
-    public function calculatePercentageOfTotalBet($result) : float
+    public function calculatePercentageOfTotalBet($implied_odds, $market_total) : float
     {
-        if(empty($result['implied_odds']) || empty($result['market_total'])){
+        if(empty($implied_odds) || empty($market_total)){
             return false;
         }
 
-        return ($result['implied_odds'] / $this->results['market_total']) * 100;
+        return round(($implied_odds / $market_total) * 100, 2);
     }
 
     /**
