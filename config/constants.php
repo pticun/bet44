@@ -2,53 +2,65 @@
 
 define('APP_PATH',  dirname(__DIR__));
 define('CONFIG', dirname(__DIR__).'/config');
-define('ODDSCHECKER', 'https://www.oddschecker.com');
-define('LIVERPOOL', 'liverpool');
-define('CITY', 'city');
-define('UNITED', 'united');
-define('CHELSEA', 'chelsea');
-define('ARSENAL', 'arsenal');
-define('BURNLEY', 'burnley');
-define('SPURS', 'spurs');
-define('LEICESTER', 'leicester');
-define('EVERTON', 'everton');
-define('WATFORD', 'watford');
-define('HUDDERSFIELD', 'huddersfield');
-define('SOUTHAMPTON', 'southampton');
-define('BRIGHTON', 'brighton');
-define('PALACE', 'palace');
-define('WESTHAM', 'west_ham');
-define('BOURNEMOUTH', 'bournemouth');
-define('STOKE', 'stoke');
-define('NEWCASTLE', 'newcastle');
-define('WESTBROM', 'west_brom');
-define('SWANSEA', 'swansea');
+define('APP_JS_PATH',  '/assets/js/');
 
-$bookmakers_name_formats = [
+require_once 'names.php';
+
+$teams = [
     'Oddschecker' => [
-        'slug_format',
-        'teams_formats'=>[
-            ARSENAL => 'arsenal',
-            LIVERPOOL => 'liverpool',
-            EVERTON => 'everton',
-            CHELSEA => 'chelsea',
-            BRIGHTON => 'brighton',
-            WATFORD => 'watford',
-            BOURNEMOUTH => 'bournemouth',
-            SOUTHAMPTON => 'southampton',
-            HUDDERSFIELD => 'huddersfield',
-            STOKE => 'stoke',
-            SWANSEA => 'swansea',
-            PALACE => 'crystal-palace',
-            WESTHAM => 'west-ham',
-            NEWCASTLE => 'newcastle',
-            BURNLEY => 'burnley',
-            SPURS => 'tottenham',
-            LEICESTER => 'leicester',
-            UNITED => 'man-utd',
-            CITY => 'man-city'
+        'PremierLeague' => [
+            'teams' => [
+                ARSENAL => 'arsenal',
+                LIVERPOOL => 'liverpool',
+                EVERTON => 'everton',
+                CHELSEA => 'chelsea',
+                BRIGHTON => 'brighton',
+                WATFORD => 'watford',
+                BOURNEMOUTH => 'bournemouth',
+                SOUTHAMPTON => 'southampton',
+                HUDDERSFIELD => 'huddersfield',
+                STOKE => 'stoke',
+                SWANSEA => 'swansea',
+                PALACE => 'crystal-palace',
+                WESTHAM => 'west-ham',
+                NEWCASTLE => 'newcastle',
+                BURNLEY => 'burnley',
+                SPURS => 'tottenham',
+                LEICESTER => 'leicester',
+                UNITED => 'man-utd',
+                CITY => 'man-city'
+            ]
+        ],
+        'WorldCup' => [
+            'slug_format' => 'football/world-cup/%s-v-%s/winner',
+            'teams' => [
+                RUSSIA => 'russia',
+                SAUDIARABIA => 'saudi-arabia',
+                AUSTRALIA => 'australia',
+                FRANCE => 'france'
+
+            ]
         ]
     ]
 ];
 
-define('BOOKMAKERS_NAME_FORMATS', $bookmakers_name_formats);
+//$matches = [
+////    ['stoke', 'newcastle'],
+//    ['chelsea', 'leicester']
+//];
+//football/world-cup/russia-v-saudi-arabia/winner
+$competitions = [
+    'Oddschecker' => [
+        'url' => 'https://www.oddschecker.com',
+        'sports'=>[
+            'Football' => [
+//            'PremierLeague',
+                'WorldCup'
+            ]
+        ]
+    ]
+];
+
+define('TEAMS', $teams);
+//define('MATCHES', $matches);
+define('COMPETITIONS', $competitions);

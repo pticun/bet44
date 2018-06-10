@@ -561,6 +561,22 @@ if (! function_exists('dd')) {
     }
 }
 
+if (! function_exists('pp')) {
+    /**
+     * Dump the passed variables and end the script.
+     *
+     * @param  mixed
+     * @param bool
+     * @return void
+     */
+    function pp($var, $die = false)
+    {
+        echo '<pre>';
+        print_r($var);
+        if($die)
+            die;
+    }
+}
 if (! function_exists('e')) {
     /**
      * Escape HTML special characters in a string.

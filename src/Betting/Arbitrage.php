@@ -1,38 +1,33 @@
 <?php
 
 namespace Acme\Betting;
-use Acme\Betting\Converter;
+
 use Acme\Exceptions\CustomExceptions;
+use PHPUnit\Runner\Exception;
 
 class Arbitrage
 {
     protected $results = ['bets' => []];
     protected $market_total;
     protected $total_betting_amount;
-    protected $converter;
 
-    public function __construct($decimal_odds = null, Converter $converter = null)
+    public function __construct($decimal_odds = null)
     {
         if ($decimal_odds !== null) {
             foreach ($decimal_odds as $decimal_odd) {
-                if(!is_float($decimal_odd))
-                    throw new CustomExceptions('Odds in constructor must be decimal format. Use setDecimalOddsFromFractions() 
-                instead.');
+                if (!is_float($decimal_odd))
+                    throw new CustomExceptions('Odds passed to constructor must be decimal format. 
+                    Use setDecimalOddsFromFractions() to convert.');
                 $this->results['bets'][] = ['decimal_odds' => $decimal_odd];
             }
         }
-
-        if($converter !== null)
-            $this->converter = $converter;
     }
 
-    public function setDecimalOddsFromFractions($fractions)
+    public static function setDecimalOddsFromFractions($fraction)
     {
-        foreach ($fractions as $fraction){
-            $decimal = $this->converter::fractionToDecimal($fraction);
-            $decimal_odds = $this->converter::decimalToDecimalOdds($decimal);
-            $this->results['bets'][] = ['decimal_odds' => $decimal_odds];
-        }
+        $decimal = self::fractionToDecimal($fraction);
+        $decimal_odds = self::decimalToDecimalOdds($decimal);
+        return $decimal_odds;
     }
 
     public function exec()
@@ -48,24 +43,13 @@ class Arbitrage
         return $this->results;
     }
 
-    public function unitTestTest()
-    {
-        $results = [];
-        for($i=0; $i<3; $i++){
-            $fraction = $this->converter->getAFraction();
-            $enumerator_and_denominator = explode('/', $fraction);
-            $results[] = round($enumerator_and_denominator[1] / ($enumerator_and_denominator[0] + $enumerator_and_denominator[1]), 2);
-        }
-
-        return $results;
-    }
-
     public function setArbParams()
     {
         $all_implied_odds = [];
-        foreach ($this->results['bets'] as &$bet){
+        foreach ($this->results['bets'] as &$bet) {
             $decimal_odds[] = $bet['decimal_odds'];
             $implied_odds = $this->impliedOdds($bet['decimal_odds']);
+            $implied_odds = rand(31, 38);
             $all_implied_odds[] = $implied_odds;
             $bet['implied_odds'] = $implied_odds;
         }
@@ -74,12 +58,17 @@ class Arbitrage
         $this->results['market_total'] = $this->market_total;
     }
 
-    public function impliedOdds($decimal_odds) : float
+    public function getMarketTotal()
+    {
+        return $this->market_total;
+    }
+
+    public function impliedOdds($decimal_odds): float
     {
         return self::decimalOddsToImpliedOdds($decimal_odds);
     }
 
-    public function marketTotal($implied_odds) : float
+    public function marketTotal($implied_odds): float
     {
         $market_total = 0;
         foreach ($implied_odds as $implied_odd) {
@@ -95,12 +84,12 @@ class Arbitrage
         $this->total_betting_amount = $total_betting_amount;
     }
 
-    public function arb() : bool
+    public function arb(): bool
     {
         return $this->market_total < 100;
     }
 
-    public static function decimalOddsToImpliedOdds($decimal_odds) : float
+    public static function decimalOddsToImpliedOdds($decimal_odds): float
     {
         return round(100 * (1 / $decimal_odds), 2);
     }
@@ -115,7 +104,7 @@ class Arbitrage
      * @param float $decimal_odds
      * @return mixed
      */
-    public function calculateTotalReturn($amount_to_bet, $decimal_odds) : float
+    public function calculateTotalReturn($amount_to_bet, $decimal_odds): float
     {
         return $amount_to_bet * $decimal_odds;
     }
@@ -125,9 +114,9 @@ class Arbitrage
      * @param $market_total
      * @return float|int
      */
-    public function calculatePercentageOfTotalBet($implied_odds, $market_total) : float
+    public function calculatePercentageOfTotalBet($implied_odds, $market_total): float
     {
-        if(empty($implied_odds) || empty($market_total)){
+        if (empty($implied_odds) || empty($market_total)) {
             return false;
         }
 
@@ -139,15 +128,49 @@ class Arbitrage
      * @param $percentage_of_total_bet
      * @return mixed
      */
-    public function calculateAmountToBet($total_betting_amount, $percentage_of_total_bet) : float
+    public function calculateAmountToBet($total_betting_amount, $percentage_of_total_bet): float
     {
         $amount_to_bet = round(($total_betting_amount / 100) * $percentage_of_total_bet, 2);
         return $amount_to_bet;
     }
 
-    public function calculateProfit($total_return, $total_betting_amount) : float
+    public function calculateProfit($total_return, $total_betting_amount): float
     {
         return round(($total_return - $total_betting_amount), 2);
     }
+
+    public static function fractionToDecimal($fraction)
+    {
+        if (!stripos($fraction, '/')) {
+            throw new CustomExceptions('Invalid fraction.');
+        }
+
+        $split_fraction = explode('/', $fraction);
+
+        return $split_fraction[1] / ($split_fraction[0] + $split_fraction[1]);
+    }
+
+    public static function decimalToDecimalOdds($decimal)
+    {
+        return round(1 / $decimal, 2);
+    }
+
+    public static function validateFraction($odds)
+        {
+            if(!is_string($odds)){
+                throw new CustomExceptions('Fraction must be passed as string.');
+            }
+
+            $string_validation_check = (int)$odds;
+            if(!$string_validation_check){
+                throw new CustomExceptions('Invalid Fraction.');
+            }
+
+            if(!stripos($odds, '/')){
+                $odds = $odds.'/1';
+            }
+
+            return $odds;
+        }
 
 }

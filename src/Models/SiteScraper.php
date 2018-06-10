@@ -7,13 +7,13 @@ namespace Acme\Models;
 interface SiteScraper
 {
     function formatOdds();
-    function setBetRows();
+    function setBetRows($crawler);
     function setBookmakers();
     function setEventDate();
     function getProperties();
     function exec();
-    function eventExists();
+    static function eventExists($team_name_1, $team_name_2, $client);
     function getResults();
 
-    static function urlSlugFormatter($team, $opponent);
+    static function urlFormatter($team, $opponent);
 }

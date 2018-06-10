@@ -20,6 +20,7 @@ class Page extends Eloquent
 
     public function where($slug)
     {
-        return $this->bets[$slug] ?? false;
+        $page = $this->pages[$slug];
+        return $page;
     }
 }

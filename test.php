@@ -1,6 +1,6 @@
 <?php
 
-$bookmakers_name_formats = null;
+$names = null;
 
 use Goutte\Client;
 use Acme\Betting\Converter;
@@ -107,9 +107,9 @@ print_r($all_odds);die;
 
 $oddsCheckerOdds = [];
 $arbitrage_opportunities = [];
-foreach ($bookmakers_name_formats['Oddschecker']['teams_formats'] as $key=>$val){
+foreach ($names['Oddschecker']['teams_formats'] as $key=>$val){
     $team = $val;
-    foreach ($bookmakers_name_formats['Oddschecker']['teams_formats'] as $k=>$v){
+    foreach ($names['Oddschecker']['teams_formats'] as $k=>$v){
         if($val !== $v){
             $slug = Oddschecker::urlSlugFormatter($val, $v);
             $oddschecker = new Oddschecker('https://www.oddschecker.com/football/english/premier-league/'.$slug.'/winner', $client);

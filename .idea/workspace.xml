@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Betting/BetsCorrelator.php" description="use Acme\Betting\Arbitrage;" line="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96528afd-e840-483d-a73b-01b3391943c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,34 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.69413626">
+    <splitter split-orientation="vertical" split-proportion="0.73058635">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Page.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Models/Page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PageController.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PageController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controllers/PageController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="97">
-                  <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+                <state relative-caret-position="374">
+                  <caret line="31" column="96" lean-forward="false" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
                   <folding>
                     <element signature="e#36#63#0#PHP" expanded="true" />
                   </folding>
@@ -45,45 +28,55 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Controllers/BaseController.php">
+          <file leaf-file-name="bets.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/bets.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+                <state relative-caret-position="68">
+                  <caret line="40" column="104" lean-forward="true" selection-start-line="40" selection-start-column="104" selection-end-line="40" selection-end-column="104" />
                   <folding>
-                    <element signature="e#35#75#0#PHP" expanded="true" />
+                    <element signature="e#473#496#0#HTML" expanded="true" />
+                    <element signature="e#1439#1465#0#HTML" expanded="true" />
+                    <element signature="e#1490#1516#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Http/Response.php">
+          <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/helpers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#27#63#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BladeInstance.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/duncan3dc/blade/src/BladeInstance.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1479">
-                  <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+                <state relative-caret-position="215">
+                  <caret line="575" column="16" lean-forward="true" selection-start-line="575" selection-start-column="16" selection-end-line="575" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Filesystem.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/illuminate/filesystem/Filesystem.php">
+          <file leaf-file-name="BetsCorrelator.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Betting/BetsCorrelator.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+                <state relative-caret-position="170">
+                  <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Arbitrage.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Betting/Arbitrage.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/www/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -92,28 +85,18 @@
           <file leaf-file-name="constants.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/constants.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+                <state relative-caret-position="-75">
+                  <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/config.php">
+          <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/header.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -123,46 +106,26 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Arbitrage.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Betting/Arbitrage.php">
+          <file leaf-file-name="Arbs.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Models/Arbs.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+                <state relative-caret-position="115">
+                  <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="24" />
                   <folding>
-                    <element signature="e#31#58#0#PHP" expanded="true" />
+                    <element signature="e#31#82#0#PHP" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BetsCorrelater.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Betting/BetsCorrelater.php">
+          <file leaf-file-name="Oddschecker.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker/Oddschecker.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Oddschecker.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+                <state relative-caret-position="156">
+                  <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
                   <folding>
-                    <element signature="e#31#42#0#PHP" expanded="true" />
+                    <element signature="e#45#72#0#PHP" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BettingUtilities.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Betting/BettingUtilities.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -175,41 +138,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>calculateProfit</find>
-      <find>totalReturn(</find>
-      <find>2.10</find>
-      <find>total_betting_amount</find>
-      <find>tion exec(</find>
-      <find>percentage_of_total_bet</find>
-      <find>converter</find>
-      <find>getBetRows</find>
-      <find>this-&gt;con</find>
-      <find>generic-page</find>
-      <find>Betting</find>
-      <find>-&gt;bookmakers_name_formats['Odd</find>
-      <find>getProperties</find>
-      <find>rmats['Oddschecker']['</find>
-      <find>$oddschecker</find>
-      <find>$this-&gt;oddsModel_odds</find>
-      <find>$team</find>
-      <find>Doten</find>
-      <find>page-not-found</find>
-      <find>blade</find>
-      <find>getShowHomePage</find>
-      <find>function where</find>
-      <find>function</find>
-      <find>Builder</find>
-      <find>/views</find>
-      <find>class Vie</find>
-      <find>view</find>
-      <find>getShowPag</find>
-      <find>extract(</find>
-      <find>bookmakers_name_formats</find>
+      <find>function filter(</find>
+      <find>setBookmakers</find>
+      <find>$this-&gt;crawler</find>
+      <find>filter</find>
+      <find>$this-&gt;client</find>
+      <find>-&gt;request(</find>
+      <find>client</find>
+      <find>slug_format</find>
+      <find>setBetRows</find>
+      <find>$this-&gt;bet_rows =</find>
+      <find>$this-&gt;event_date =</find>
+      <find>$val</find>
+      <find>$v</find>
+      <find>$key</find>
+      <find>$sport</find>
+      <find>$team_name</find>
+      <find>sortRows</find>
+      <find>function dd(</find>
+      <find>BetsCorrelator</find>
+      <find>$arbs-&gt;get</find>
+      <find>sortRo</find>
+      <find>function sortRow</find>
+      <find>sort</find>
+      <find>$match_odds</find>
+      <find>$this-&gt;market_total =</find>
+      <find>decimalOddsToImpliedOdds</find>
+      <find>impliedOdds</find>
+      <find>34</find>
+      <find>dd(</find>
+      <find>$css_files</find>
     </findStrings>
     <replaceStrings>
       <replace>$this-&gt;</replace>
@@ -218,11 +182,22 @@
       <replace>$this</replace>
       <replace>Model</replace>
       <replace>$this-&gt;oddsModel</replace>
+      <replace>number_of_rows</replace>
+      <replace>iterateMe</replace>
+      <replace>premier_league_name_formats</replace>
+      <replace>oddschecker_premier_league_name_formats</replace>
+      <replace>names</replace>
       <replace>$odds</replace>
+      <replace>$bookmakers</replace>
+      <replace>$website_details</replace>
+      <replace>$competitions</replace>
+      <replace>$team_name</replace>
+      <replace>$sport_key</replace>
+      <replace>$match_data</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>C:\xampp\htdocs\betting\vendor</dir>
       <dir>C:\xampp\htdocs\betting\vendor\composer</dir>
+      <dir>C:\xampp\htdocs\betting\vendor</dir>
       <dir>C:\xampp\htdocs\betting</dir>
     </dirStrings>
   </component>
@@ -232,53 +207,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/init.php" />
-        <option value="$PROJECT_DIR$/libraries/CURL.php" />
-        <option value="$PROJECT_DIR$/libraries/Exception/CustomException.php" />
-        <option value="$PROJECT_DIR$/vendor/autoload.php" />
-        <option value="$PROJECT_DIR$/libraries/Exceptions/CustomExceptions.php" />
-        <option value="$PROJECT_DIR$/libraries/Betting/Converter.php" />
-        <option value="$PROJECT_DIR$/libraries/Betting/Arbitrage.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
-        <option value="$PROJECT_DIR$/src/Exceptions/CustomExceptions.php" />
-        <option value="$PROJECT_DIR$/Tests/ArbitrageTest.php" />
-        <option value="$PROJECT_DIR$/src/Betting/Converter.php" />
-        <option value="$PROJECT_DIR$/Tests/Betting/ArbitrageTest.php" />
-        <option value="$PROJECT_DIR$/Tests/Controllers/PageControllersTest.php" />
-        <option value="$PROJECT_DIR$/src/Betting/SiteScraper.php" />
-        <option value="$PROJECT_DIR$/src/Betting/BettingUtilities.php" />
-        <option value="$PROJECT_DIR$/src/Betting/Arbitrage.php" />
-        <option value="$PROJECT_DIR$/src/Betting/Sites/Oddschecker.php" />
-        <option value="$PROJECT_DIR$/views/bets.html" />
         <option value="$PROJECT_DIR$/views/partials/asds.html" />
         <option value="$PROJECT_DIR$/views/partials/header.php" />
         <option value="$PROJECT_DIR$/views/partials/footer.php" />
         <option value="$PROJECT_DIR$/views/bets.php" />
         <option value="$PROJECT_DIR$/src/Models/Oddshecker.php" />
         <option value="$PROJECT_DIR$/config/bookmakers_name_formats.php" />
-        <option value="$PROJECT_DIR$/src/Models/SiteScraper.php" />
-        <option value="$PROJECT_DIR$/src/Betting/BetsCorrelater.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
         <option value="$PROJECT_DIR$/src/Auth/LoggedIn.php" />
-        <option value="$PROJECT_DIR$/bootstrap/start.php" />
         <option value="$PROJECT_DIR$/views/page-not-found.php" />
         <option value="$PROJECT_DIR$/views/page-not-found.blade.php" />
         <option value="$PROJECT_DIR$/www/.htaccess" />
         <option value="$PROJECT_DIR$/vendor/illuminate/view/FileViewFinder.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/src/Http/Response.php" />
-        <option value="$PROJECT_DIR$/src/Models/Page.php" />
-        <option value="$PROJECT_DIR$/routes.php" />
-        <option value="$PROJECT_DIR$/src/Controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/config/constants.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/src/Models/Page.php" />
+        <option value="$PROJECT_DIR$/src/Models/bets.php" />
+        <option value="$PROJECT_DIR$/assets/js/bets.js" />
+        <option value="$PROJECT_DIR$/www/assets/js/bets.js" />
+        <option value="$PROJECT_DIR$/src/Betting/BetsCorrelater.php" />
+        <option value="$PROJECT_DIR$/www/test.txt" />
+        <option value="$PROJECT_DIR$/routes.php" />
+        <option value="$PROJECT_DIR$/bootstrap/functions.php" />
+        <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/src/Models/Bets.php" />
+        <option value="$PROJECT_DIR$/bootstrap/start.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddschecker/WorldCup.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddschecker/PremierLeague.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddschecker/Football/PremierLeague.php" />
+        <option value="$PROJECT_DIR$/views/footer.blade.php" />
+        <option value="$PROJECT_DIR$/views/partials/file_includes.blade.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddscheckerddddd.php" />
         <option value="$PROJECT_DIR$/src/Models/Oddschecker.php" />
+        <option value="$PROJECT_DIR$/vendor/fabpot/goutte/Goutte/Client.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddschecker/Football/WorldCup.php" />
+        <option value="$PROJECT_DIR$/bootstrap/dependencies.php" />
+        <option value="$PROJECT_DIR$/src/Controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/src/Models/SiteScraper.php" />
+        <option value="$PROJECT_DIR$/config/names.php" />
+        <option value="$PROJECT_DIR$/config/constants.php" />
+        <option value="$PROJECT_DIR$/src/Models/Oddschecker/Oddschecker.php" />
+        <option value="$PROJECT_DIR$/src/Models/Arbs.php" />
+        <option value="$PROJECT_DIR$/src/Betting/BetsCorrelator.php" />
+        <option value="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" />
+        <option value="$PROJECT_DIR$/src/Betting/Arbitrage.php" />
+        <option value="$PROJECT_DIR$/views/header.blade.php" />
         <option value="$PROJECT_DIR$/src/Controllers/PageController.php" />
+        <option value="$PROJECT_DIR$/views/bets.blade.php" />
       </list>
     </option>
   </component>
@@ -296,7 +275,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="36" />
     <option name="y" value="3" />
     <option name="width" value="1376" />
@@ -319,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,22 +308,45 @@
             <path>
               <item name="betting" type="b2602c69:ProjectViewProjectNode" />
               <item name="betting" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="betting" type="b2602c69:ProjectViewProjectNode" />
               <item name="betting" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="betting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="betting" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Oddschecker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="betting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="betting" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Oddschecker" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Football" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="betting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="betting" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -356,10 +357,11 @@
       <recent name="C:\xampp\htdocs\betting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\betting\src\Models\Oddschecker\Football" />
+      <recent name="C:\xampp\htdocs\betting\www" />
+      <recent name="C:\xampp\htdocs\betting\www\assets" />
       <recent name="C:\xampp\htdocs\betting\views" />
       <recent name="C:\xampp\htdocs\betting\src\Models" />
-      <recent name="C:\xampp\htdocs\betting\Tests\Betting" />
-      <recent name="C:\xampp\htdocs\betting\www" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,20 +407,32 @@
       <workItem from="1514278185819" duration="15669000" />
       <workItem from="1514308247029" duration="1858000" />
       <workItem from="1514816564920" duration="1000" />
+      <workItem from="1514922655448" duration="5668000" />
+      <workItem from="1515007006485" duration="3221000" />
+      <workItem from="1515256258435" duration="1449000" />
+      <workItem from="1515266068462" duration="16625000" />
+      <workItem from="1515317857423" duration="14627000" />
+      <workItem from="1515352733376" duration="60000" />
+      <workItem from="1515925168761" duration="12663000" />
+      <workItem from="1516470157964" duration="71000" />
+      <workItem from="1527936197215" duration="24621000" />
+      <workItem from="1528013851311" duration="8085000" />
+      <workItem from="1528615127942" duration="23059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125406000" />
+    <option name="totallyTimeSpent" value="244091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15739386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19399707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3518225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -430,7 +444,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3518225" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -445,178 +458,74 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/resources/dev courses and resources/htdocs/pool/table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/bets.html" />
-    <entry file="file://$PROJECT_DIR$/views/partials/asds.html" />
-    <entry file="file://$PROJECT_DIR$/views/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="89" lean-forward="true" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-          <folding>
-            <element signature="e#31#42#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="144" column="9" lean-forward="false" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Betting/Arbitrage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#31#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Betting/BettingUtilities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/SiteScraper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Betting/BetsCorrelater.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#59#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/bets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fabpot/goutte/Goutte/Client.php">
+    <entry file="file://$PROJECT_DIR$/src/Models/Page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+    <entry file="file://$PROJECT_DIR$/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/tablesorter/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/Betting/Arbitrage.php.html" />
+    <entry file="file://$PROJECT_DIR$/src/Betting/Converter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Dotenv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+    <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="813" column="0" lean-forward="false" selection-start-line="813" selection-start-column="0" selection-end-line="813" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/altorouter/altorouter/AltoRouter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="2635">
+          <caret line="167" column="20" lean-forward="false" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Auth/LoggedIn.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/page-not-found.php" />
-    <entry file="file://$PROJECT_DIR$/views/page-not-found.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/BaseControllerWithDI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -627,66 +536,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Builder.php">
+    <entry file="file://$PROJECT_DIR$/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Model.php">
+    <entry file="file://$PROJECT_DIR$/vendor/rdlowrey/auryn/lib/Injector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="311" column="7" lean-forward="true" selection-start-line="311" selection-start-column="7" selection-end-line="311" selection-end-column="7" />
+        <state relative-caret-position="384">
+          <caret line="555" column="36" lean-forward="false" selection-start-line="555" selection-start-column="36" selection-end-line="555" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/dependencies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/bets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="568" column="9" lean-forward="false" selection-start-line="568" selection-start-column="9" selection-end-line="568" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/Facades/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/Facades/View.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/view/FileViewFinder.php">
+    <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="130" column="53" lean-forward="false" selection-start-line="130" selection-start-column="53" selection-end-line="130" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/bootstrap/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Bets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#30#81#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker/Football/PremierLeague.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/js/bets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/duncan3dc/blade/src/DirectivesInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -694,116 +624,231 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#27#63#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/Support/Renderable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/View/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="189">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/view/Engines/EngineResolver.php">
+    <entry file="file://$PROJECT_DIR$/cache/4dcf939b30a510ae2063368bb2f4722b4e0e12d3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/duncan3dc/blade/src/BladeInstance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        <state relative-caret-position="155">
+          <caret line="331" column="43" lean-forward="false" selection-start-line="331" selection-start-column="43" selection-end-line="331" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/Page.php">
+    <entry file="file://$PROJECT_DIR$/views/partials/file_includes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Betting/BettingUtilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="183" column="34" lean-forward="false" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="34" />
+          <folding>
+            <element signature="e#7#236#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/browser-kit/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="50" column="76" lean-forward="false" selection-start-line="50" selection-start-column="76" selection-end-line="50" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fabpot/goutte/Goutte/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/dependencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes.php">
+    <entry file="file://$PROJECT_DIR$/src/Models/SiteScraper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="578">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
-            <element signature="e#35#75#0#PHP" expanded="true" />
+            <element signature="e#35#75#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/filesystem/Filesystem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bookmakers_name_formats.php" />
     <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="654">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding>
-            <element signature="e#31#42#0#PHP" expanded="true" />
+            <element signature="e#32#59#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker/Football/WorldCup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Oddschecker/Oddschecker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="e#45#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/names.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Arbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#31#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="575" column="16" lean-forward="true" selection-start-line="575" selection-start-column="16" selection-end-line="575" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Betting/BetsCorrelator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Betting/Arbitrage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        <state relative-caret-position="374">
+          <caret line="31" column="96" lean-forward="false" selection-start-line="31" selection-start-column="96" selection-end-line="31" selection-end-column="96" />
           <folding>
             <element signature="e#36#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/bets.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="40" column="104" lean-forward="true" selection-start-line="40" selection-start-column="104" selection-end-line="40" selection-end-column="104" />
+          <folding>
+            <element signature="e#473#496#0#HTML" expanded="true" />
+            <element signature="e#1439#1465#0#HTML" expanded="true" />
+            <element signature="e#1490#1516#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
